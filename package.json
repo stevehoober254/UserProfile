@@ -1,0 +1,24 @@
+{
+  "name": "profilebysteve",
+  "version": "1.0.0",
+  "description": "Add awesome userprofiles to your project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stevehoober254/UserProfile.git"
+  },
+  "keywords": [
+    "userprofile"
+  ],
+  "author": "Steve Hoober",
+  "license": "ISC",
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
+  "bugs": {
+    "url": "https://github.com/stevehoober254/UserProfile/issues"
+  },
+  "homepage": "https://github.com/stevehoober254/UserProfile#readme"
+  
+}

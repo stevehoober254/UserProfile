@@ -1,29 +1,33 @@
 # What is this ?
 
-get a perfect shadows evry time fro the non-designers
+Create best user profile pages for both mobile and web
+Make use of :
+
+* Avatars with user Initials
+* Material Icons
+* User Bio
+* User TagLine
 
 
 # Installation
 
-` npm i shadowwizard --save`
+` npm i profilebysteve --save`
 
-Then ... 
+Then... 
 
-...
+`
+        import { profilebysteve } from 'shadowwizard' ;
 
-import { shaowwizard } from 'shadowwizard' ;
+        shadowwizard({
+            shadow_type: 'soft',
+            padding: false
+        });
 
-shadowwizard({
-    shadow_type: 'soft',
-    padding: false
-});
-
-
-...
+`
 
 ## Options
 
 Shadowwizard supports 2 options, both of which are optional :
 
-*  * shadow_type * -  _hard | soft_  (Defaults to soft)
-* * padding * - _boolean_  (Defaults to faulse)   
+*  shadow_type  -  _hard | soft_  (Defaults to soft)
+*  padding  - _boolean_  (Defaults to faulse)   
